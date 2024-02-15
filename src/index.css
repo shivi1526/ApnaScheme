@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "ProductSans-Regular";
+  src: local("ProductSans-Regular"),
+    url("./assets/fonts/ProductSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ProductSans-Bold";
+  src: local("ProductSans-Bold"),
+    url("./assets/fonts/ProductSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'ProductSans-Regular' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

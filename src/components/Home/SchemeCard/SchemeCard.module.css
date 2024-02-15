@@ -1,0 +1,11 @@
+
+.schemeCard {
+    transition: transform .2s; 
+}
+
+.schemeCard:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    color: rgb(248, 248, 248);
+    background-color: rgb(5, 154, 45);
+}
